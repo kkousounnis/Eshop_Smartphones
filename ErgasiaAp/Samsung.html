@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link REL=STYLESHEET  HREF="theme.css"
+          TYPE="text/css">
+</head>
+<body>
+
+
+<div class="navbar">
+    <a href="Menu.php">Αρχική</a>
+    <a href="Logout.php">Αποσύνδεση</a>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="dropdown">
+    <button class="dropbtn">SmartPhones</button>
+    <div class="dropdown-content">
+        <a href="Samsung.html">Samsung</a>
+        <a href="Huawei.html">Huawei</a>
+    </div>
+</div>
+<div class="card">
+    <form method="post" action="Buy.php">
+
+        <img src="pictures/S9.jpg" alt="Denim Jeans" style="width:100%">
+        <h1 style="font-size:20px;border:white;" ><input type="hidden" style="font-size:20px;border:white;" type="text" name="model"required value="Samsung Galaxy S9"> Samsung Galaxy S9</h1>
+        <input type="hidden" style="color:grey;font-size:22px;border:white;text-align:center;" type="text" name="price"required value="799euro">799euro</h1>
+
+
+
+        <p>Έκδοση Λειτουργικού: Android 8.0 (Oreo)</p>
+        <p>	Επεξεργαστής: Octa Core (4x 2.7GHx & 4x 1.7GHz)</p>
+        <p>Μνήμη (Ram): 6 GB</p>
+        <p>	Μέγεθος Οθόνης: 6,2"</p>
+        <p>	Βασική Κάμερα: Dual 12 Mp</p>
+
+
+        <p>
+            <input type="submit" value="Buy" >
+        </p>
+    </form>
+</div>
+<div class="card">
+    <form method="post" action="Buy.php">
+
+        <img src="pictures/Note.jpeg" alt="Denim Jeans" style="width:100%">
+        <h1 style="font-size:20px;border:white;"><input type="hidden" style="font-size:20px;border:white;" type="text" name="model"required value="Samsung Galaxy Note9"> Samsung Galaxy Note9 </h1>
+        <input type="hidden" style="color:grey;font-size:22px;border:white;text-align:center;" type="text" name="price"required value="699euro">699euro</h1>
+
+
+        <p>RAM: 6GB</p>
+        <p>Μνήμη: 128GB</p>
+        <p>	Βασική Κάμερα: Dual 12 Mp</p>
+        <p>
+            <input type="submit" value="Buy" >
+        </p>
+    </form>
+</div>
+</body>
+</html>
